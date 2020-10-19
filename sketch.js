@@ -11,7 +11,7 @@ function touchStarted() {
 function setup() {
    createCanvas(500, 500);
     angleMode(DEGREES);
-   song = loadSound("magenta.mp3", loaded);
+   song = loadSound("dot.wav", loaded);
    amp = new p5.Amplitude();
 }
 
